@@ -1,0 +1,5 @@
+FROM rockylinux:8.8
+
+RUN yum install gedit -y && yum install mesa-libGL -y
+
+CMD gedit
